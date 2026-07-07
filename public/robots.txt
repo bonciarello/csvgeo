@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://cristianporco.it/app/convertitore-di-file-csv-a-geojson-con-validazione-coordinate/sitemap.xml

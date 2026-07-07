@@ -1,0 +1,20 @@
+{
+  "name": "convertitore-csv-geojson",
+  "version": "1.0.0",
+  "description": "Convertitore di file CSV con coordinate geografiche in formato GeoJSON valido, con validazione automatica delle coordinate.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["csv", "geojson", "gis", "coordinate", "converter", "validator"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-parse": "^7.0.1",
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "uuid": "^14.0.1"
+  }
+}
